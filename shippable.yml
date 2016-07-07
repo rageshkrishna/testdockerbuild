@@ -10,5 +10,5 @@ build:
 
 integrations:
  hub:
-  - integrationName: "docker-hub"
+  - integrationName: "Ragesh - Docker"
     type: docker
