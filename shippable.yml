@@ -1,7 +1,14 @@
 language: python
+
 python:
  - 2.7
+
 build:
   ci:
     - docker build -t ragesh/testdockerbuild .
     - docker push ragesh/testdockerbuild
+
+integrations:
+ hub:
+  - integrationName: "docker-hub"
+    type: hub
